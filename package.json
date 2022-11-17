@@ -1,0 +1,22 @@
+{
+  "name": "oplog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "oplog.streamer.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node oplog.streamer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "json-colorizer": "^2.2.2",
+    "mongo-oplog": "^2.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
