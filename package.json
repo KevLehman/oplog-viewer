@@ -14,7 +14,8 @@
   "dependencies": {
     "commander": "^9.4.1",
     "json-colorizer": "^2.2.2",
-    "mongo-oplog": "^2.1.4"
+    "mongo-oplog": "^2.1.4",
+    "mongodb": "^4.13.0"
   },
   "devDependencies": {
     "typescript": "^4.9.3"
